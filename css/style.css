@@ -64,7 +64,7 @@ h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #fff url("../img/logo.png") no-repeat center center;
 }
 
 /* Back to top button */
@@ -469,7 +469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.gif) top center;
+  background: url(https://firebasestorage.googleapis.com/v0/b/pixogaze-49e2c.appspot.com/o/Techfest%2Fintro-bg%201.gif?alt=media&token=d96cbab7-2675-433b-97c0-0ff8bc4595c9) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
