@@ -43,16 +43,20 @@ img[alt="Linktree photo"] + h3 {
 }
 
 .linktree-nav ul {
-  display: grid;
+  display: inline;
   gap: 1rem;
   list-style: none;
 }
+.linktree-nav li:hover{
+  transform: scale(1.1); /* Hover effect for scaling */
+  transition: transform 330ms ease-in-out;
+}
+
 
 .linktree-nav a {
   text-decoration: none;
   color: inherit;
 }
-
 .linktree-box {
   display: flex;
   align-items: center;
@@ -91,9 +95,6 @@ img[alt="Linktree photo"] + h3 {
 
 
 
-body {
-  background-color: #ffffff; /* Set background to white */
-}
 
 .social-bar {
   display: flex;
