@@ -701,7 +701,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team {
   padding: 60px 0 30px 0;
 }
-
+@media screen and (max-width: 480px) {
+  #team .team {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+  }
+  #team-details .details .social {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+  }
+}
 #team .team {
   position: relative;
   overflow: hidden;
